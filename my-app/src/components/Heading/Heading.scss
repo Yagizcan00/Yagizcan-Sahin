@@ -1,0 +1,122 @@
+@media only screen and (max-width: 420px) {
+
+    .heading {
+
+        .update_date {
+            width: 100vw;
+            height: 20px;
+
+            display: flex;
+            justify-content: flex-end;
+
+            p {
+                margin: 0px;
+                padding: 0px;
+
+                font-size: 12.5px;
+                font-weight: 300;
+            }
+        }
+
+        .big_heading {
+            width: 100vw;
+            height: 100px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                margin: 10px 0px 10px 0px;
+
+                font-size: 32.5px;
+                font-weight: 600;
+            }
+
+            h2 {
+                margin: 5px 0px 0px 0px;
+
+                font-size: 22.5px;
+                font-weight: 500;
+            }
+        }
+
+        .contact {
+            width: 100vw;
+            height: auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            margin: 5px 0px 0px 0px;
+
+            .content_item {
+                width: 60vw;
+                height: auto;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                margin: 2.5px 0px 2.5px 20vw;
+
+                // background-color: lightgray;
+
+                .icon_background {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    height: 22.5px;
+                    width: 22.5px;
+
+                    background-color: rgb(220, 220, 220);
+                    border-radius: 50%;
+
+                    .icon {
+                        font-size: 12.5px;
+                    }
+                }
+
+                p {
+                    margin: 0px 0px 0px 10px;
+                    font-weight: 300;
+                }
+            }
+
+            .linkedin {
+                width: 60vw;
+                height: auto;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                margin: 2.5px 0px 2.5px 20vw;
+
+                .linkedin_icon_background {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    height: 22.5px;
+                    width: 32.5px;
+
+                    background-color: rgb(220, 220, 220);
+                    border-radius: 50%;
+
+                    .linkedin_icon {
+                        font-size: 12.5px;
+                    }
+
+                }
+
+                p {
+                    margin: 0px 0px 0px 10px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
