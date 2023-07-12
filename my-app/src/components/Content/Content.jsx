@@ -57,15 +57,15 @@ function Content() {
 
                 <section className='content_technical_skills'>
                     <ul>
-                        <li>React.js</li>
-                        <li>JavaScript</li>
-                        <li>CSS</li>
-                        <li>HTML</li>
-                        <li>State Management (Context)</li>
-                        <li>Project Architecture</li>
-                        <li>Responsive Apps</li>
-                        <li>Firebase</li>
-                        <li>Clean Coding</li>
+                        <li>- React.js</li>
+                        <li>- JavaScript</li>
+                        <li>- CSS</li>
+                        <li>- HTML</li>
+                        <li>- State Management (Context)</li>
+                        <li>- Project Architecture</li>
+                        <li>- Responsive Apps</li>
+                        <li>- Firebase</li>
+                        <li>- Clean Coding</li>
                     </ul>
                 </section>
 
@@ -109,9 +109,9 @@ function Content() {
 
                 <section className='content_languages'>
                     <ul>
-                        <li>English  (B2 level)</li>
-                        <li>German  (A1 level)</li>
-                        <li>Turkish  (Natural)</li>
+                        <li>- English  (B2 level)</li>
+                        <li>- German  (A1 level)</li>
+                        <li>- Turkish  (Natural)</li>
                     </ul>
                 </section>
 
@@ -208,13 +208,58 @@ function Content() {
 
                 <section className='content_libraries_i_use'>
                     <ul>
-                        <li>react-router-dom</li>
-                        <li>react-icons</li>
-                        <li>react-dropzone</li>
-                        <li>react-draggable </li>
-                        <li>react-data-table-component</li>
-                        <li>react-color </li>
-                        <li>use-react-screenshot </li>
+                        <li>- react-router-dom</li>
+                        <li>- react-icons</li>
+                        <li>- react-dropzone</li>
+                        <li>- react-draggable </li>
+                        <li>- react-data-table-component</li>
+                        <li>- react-color </li>
+                        <li>- use-react-screenshot </li>
+                    </ul>
+                </section>
+
+            </section>
+
+            <hr style={{ width: "80vw" }} />
+
+            <section className='soft_skills'>
+
+                <section className='heading_soft_skills'>
+                    <section className='dot' />
+                    <h2>Soft Skills</h2>
+                </section>
+
+                <section className='content_soft_skills'>
+                    <ul>
+                        <li>- Research & Learning</li>
+                        <li>- Devotion</li>
+                        <li>- Professional Loyalty</li>
+                        <li>- Discipline</li>
+                        <li>- Professional Interest</li>
+                        <li>- Diligence</li>
+                        <li>- Resolution</li>
+                    </ul>
+                </section>
+
+            </section>
+
+            <hr style={{ width: "80vw" }} />
+
+            <section className='hobbies'>
+
+                <section className='heading_hobbies'>
+                    <section className='dot' />
+                    <h2>Hobbies</h2>
+                </section>
+
+                <section className='content_hobbies'>
+                    <ul>
+                        <li>- Playing snooker</li>
+                        <li>- Playing football</li>
+                        <li>- Reading book</li>
+                        <li>- Walking with my dog</li>
+                        <li>- Playing computer games</li>
+                        <li>- Swimming</li>
                     </ul>
                 </section>
 
