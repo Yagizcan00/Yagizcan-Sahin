@@ -197,6 +197,29 @@ function Content() {
 
             </section>
 
+            <hr style={{ width: "80vw" }} />
+
+            <section className='libraries_i_use'>
+
+                <section className='heading_libraries_i_use'>
+                    <section className='dot' />
+                    <h2>Libraries I Use</h2>
+                </section>
+
+                <section className='content_libraries_i_use'>
+                    <ul>
+                        <li>react-router-dom</li>
+                        <li>react-icons</li>
+                        <li>react-dropzone</li>
+                        <li>react-draggable </li>
+                        <li>react-data-table-component</li>
+                        <li>react-color </li>
+                        <li>use-react-screenshot </li>
+                    </ul>
+                </section>
+
+            </section>
+
         </div>
     )
 }

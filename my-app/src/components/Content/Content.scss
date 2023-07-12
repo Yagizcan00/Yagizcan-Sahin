@@ -282,7 +282,7 @@
 
         .content_my_projects {
 
-            h3{
+            h3 {
                 margin: 10px 0px 0px 0px;
 
                 font-size: 17.5px;
@@ -296,6 +296,52 @@
 
                 font-size: 15px;
                 font-weight: 300;
+            }
+        }
+    }
+
+    .libraries_i_use {
+        display: flex;
+        flex-direction: column;
+
+        width: 80vw;
+
+        margin: 15px 0px 0px 0px;
+
+        .heading_libraries_i_use {
+
+            display: flex;
+            align-items: center;
+
+            margin: 0px 0px 0px 0px;
+
+            .dot {
+                width: 6px;
+                height: 6px;
+
+                background-color: black;
+                border-radius: 50%;
+            }
+
+            h2 {
+                margin: 0px 0px 0px 7.5px;
+
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+
+        .content_libraries_i_use {
+
+            ul {
+                margin: 10px 0px 0px 0px;
+                padding: 0px 0px 0px 30px;
+
+                li {
+                    font-size: 15px;
+                    font-weight: 300;
+                    margin: 5px 0px 0px 0px;
+                }
             }
         }
     }
