@@ -30,7 +30,7 @@ function Heading() {
         <div className='heading'>
 
             <section className='update_date'>
-                <p>11/07/2023</p>
+                <p>21/07/2023</p>
             </section>
 
             <section className='big_heading'>

@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Content.scss"
+import { BiRightArrowAlt } from 'react-icons/bi';
+
 
 function Content() {
 
@@ -65,7 +67,7 @@ function Content() {
                         <li>- Project Architecture</li>
                         <li>- Responsive Apps</li>
                         <li>- Firebase</li>
-                        <li>- Clean Coding</li>
+                        <li>- Netlify</li>
                     </ul>
                 </section>
 
@@ -150,6 +152,7 @@ function Content() {
                             library, the use-react-screenshot library, etc.
                             The link of this project is in my GitHub account
                         </p>
+                        <a href="https://seventoseven.netlify.app" target="_blank"><BiRightArrowAlt className='icon' /><p>seventoseven.netlify.app</p></a>
                     </>
                     <>
                         <h3>Weather App</h3>
