@@ -5,6 +5,12 @@ import { BiRightArrowAlt } from 'react-icons/bi';
 
 function Content() {
 
+
+    const screenSize = window.innerWidth
+
+    console.log(screenSize)
+
+
     return (
         <div className='content'>
 
@@ -29,7 +35,7 @@ function Content() {
 
             </section>
 
-            <hr style={{ width: "80%" }} />
+            <hr style={screenSize > 420 ? { width: "100%" } : { width: "80%" }} />
 
             <section className='education'>
 
@@ -48,7 +54,7 @@ function Content() {
 
             </section>
 
-            <hr style={{ width: "80%" }} />
+            <hr style={screenSize > 420 ? { width: "100%" } : { width: "80%" }} />
 
             <section className='technical_skills'>
 
@@ -73,7 +79,7 @@ function Content() {
 
             </section>
 
-            <hr style={{ width: "80%" }} />
+            <hr style={screenSize > 420 ? { width: "100%" } : { width: "80%" }} />
 
             <section className='my_experience'>
 
@@ -100,7 +106,7 @@ function Content() {
 
             </section>
 
-            <hr style={{ width: "80%" }} />
+            <hr style={screenSize > 420 ? { width: "100%" } : { width: "80%" }} />
 
             <section className='languages'>
 
@@ -119,7 +125,7 @@ function Content() {
 
             </section>
 
-            <hr style={{ width: "80%" }} />
+            <hr style={screenSize > 420 ? { width: "100%" } : { width: "80%" }} />
 
             <section className='my_projects'>
 
@@ -200,7 +206,7 @@ function Content() {
 
             </section>
 
-            <hr style={{ width: "80%" }} />
+            <hr style={screenSize > 420 ? { width: "100%" } : { width: "80%" }} />
 
             <section className='libraries_i_use'>
 
@@ -223,7 +229,7 @@ function Content() {
 
             </section>
 
-            <hr style={{ width: "80%" }} />
+            <hr style={screenSize > 420 ? { width: "100%" } : { width: "80%" }} />
 
             <section className='soft_skills'>
 
@@ -246,7 +252,7 @@ function Content() {
 
             </section>
 
-            <hr style={{ width: "80%" }} />
+            <hr style={screenSize > 420 ? { width: "100%" } : { width: "80%" }} />
 
             <section className='hobbies'>
 

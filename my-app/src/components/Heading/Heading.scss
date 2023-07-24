@@ -1,11 +1,17 @@
 @media only screen and (min-width: 421px) {
 
     .heading {
-
-        width: 50vw;
+        width: 40vw;
         height: auto;
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         .update_date {
+            width: 40vw;
+            height: auto;
+
             display: flex;
             justify-content: flex-end;
 
@@ -16,6 +22,105 @@
                 align-items: center;
 
                 margin: 0px;
+            }
+        }
+
+        .big_heading {
+            width: 40vw;
+            height: auto;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                margin: 10px 0px 0px 0px;
+
+                font-size: 40px;
+                font-weight: 600;
+            }
+
+            h2 {
+                margin: 10px 0px 0px 0px;
+
+                font-size: 25px;
+                font-weight: 400;
+            }
+        }
+
+        .contact {
+            width: 40vw;
+            height: auto;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            margin: 20px 0px 10px 0px;
+
+            .content_item {
+                width: 40vw;
+                height: auto;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                margin: 2.5px 0px 2.5px 22.5vw;
+
+                .icon_background {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    height: 22.5px;
+                    width: 22.5px;
+
+                    background-color: rgb(220, 220, 220);
+                    border-radius: 50%;
+
+                    .icon {
+                        font-size: 12.5px;
+                    }
+                }
+
+                p {
+                    margin: 0px 0px 0px 10px;
+                    font-weight: 300;
+                }
+            }
+
+            .linkedin {
+                width: 40vw;
+                height: auto;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                margin: 2.5px 0px 2.5px 22.5vw;
+
+                .linkedin_icon_background {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    height: 22.5px;
+                    width: 22.5px;
+
+                    background-color: rgb(220, 220, 220);
+                    border-radius: 50%;
+
+                    .linkedin_icon {
+                        font-size: 12.5px;
+                    }
+
+                }
+
+                p {
+                    margin: 0px 0px 0px 10px;
+                    font-weight: 300;
+                }
             }
         }
     }
