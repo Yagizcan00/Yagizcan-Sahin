@@ -9,7 +9,7 @@ function Container() {
     return (
         <div className='container'>
             <Heading />
-            <hr style={{width:"80vw"}} />
+            <hr style={{width:"80%"}} />
             <Content />
             <Footer />
         </div>
