@@ -40,16 +40,16 @@ function Heading() {
 
             <section className='contact'>
 
-                <section className='content_item'>
-                    <section className='icon_background'><MdEmail className='icon' onClick={handleClickMail} /></section>
+                <section className='content_item' onClick={handleClickMail}>
+                    <section className='icon_background'><MdEmail className='icon' /></section>
                     <p>yagizcansahin68@gmail.com</p>
                 </section>
-                <section className='content_item'>
-                    <section className='icon_background'><AiFillGithub className='icon' onClick={handleClickGitHub} /></section>
+                <section className='content_item' onClick={handleClickGitHub}>
+                    <section className='icon_background'><AiFillGithub className='icon' /></section>
                     <p>github.com/Yagizcan00</p>
                 </section>
-                <section className='linkedin'>
-                    <section className='linkedin_icon_background'><AiFillLinkedin className='linkedin_icon' onClick={handleClickLinkedin} /></section>
+                <section className='linkedin' onClick={handleClickLinkedin}>
+                    <section className='linkedin_icon_background'><AiFillLinkedin className='linkedin_icon' /></section>
                     <p>linkedin.com/in/yağızcan-şahin-a00a13200/</p>
                 </section>
                 <section className='content_item'>

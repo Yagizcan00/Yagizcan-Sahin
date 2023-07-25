@@ -49,24 +49,26 @@
         }
 
         .contact {
-            width: 40vw;
+            width: 20vw;
             height: auto;
 
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
 
             margin: 20px 0px 10px 0px;
 
             .content_item {
-                width: 40vw;
+                width: 20vw;
                 height: auto;
 
                 display: flex;
                 flex-direction: row;
                 align-items: center;
 
-                margin: 2.5px 0px 2.5px 22.5vw;
+                margin: 2.5px 0px 2.5px 0px;
+
+                cursor: pointer;
 
                 .icon_background {
                     display: flex;
@@ -91,14 +93,16 @@
             }
 
             .linkedin {
-                width: 40vw;
+                width: 20vw;
                 height: auto;
 
                 display: flex;
                 flex-direction: row;
-                align-items: center;
+                align-items: flex-start;
 
-                margin: 2.5px 0px 2.5px 22.5vw;
+                margin: 2.5px 0px 2.5px 0px;
+
+                cursor: pointer;
 
                 .linkedin_icon_background {
                     display: flex;
