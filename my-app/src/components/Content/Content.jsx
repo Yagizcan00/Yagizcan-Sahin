@@ -163,11 +163,7 @@ function Content() {
                     <>
                         <h3>Weather App</h3>
                         <p>
-                            I coded this project to have more fun while playing
-                            football with my friends. I used the react-draggable
-                            library, the react-router-dom library, the react-icons
-                            library, the react-color library, the use-react-screenshot
-                            library, etc. This project has two different versions.
+                            This project has two different versions.
                             The first version is available on my GitHub account,
                             and the second version is a version that I customized
                             and edited for my girlfriend, if you want the link of
