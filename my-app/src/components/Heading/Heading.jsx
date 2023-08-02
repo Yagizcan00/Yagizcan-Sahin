@@ -13,7 +13,7 @@ function Heading() {
         window.open('https://mail.google.com/mail/u/0/#inbox?compose=new', '_blank');
     }
 
-    
+
     const handleClickGitHub = () => {
         // window.location.href = "https://github.com/Yagizcan00"
         window.open('https://github.com/Yagizcan00', '_blank');
@@ -52,7 +52,7 @@ function Heading() {
                     <section className='linkedin_icon_background'><AiFillLinkedin className='linkedin_icon' /></section>
                     <p>linkedin.com/in/yağızcan-şahin-a00a13200/</p>
                 </section>
-                <section className='content_item'>
+                <section className='content_item' style={{ cursor: "none" }}>
                     <section className='icon_background'><BsFillTelephoneFill className='icon' /></section>
                     <p>+90 551 429 88 82</p>
                 </section>
