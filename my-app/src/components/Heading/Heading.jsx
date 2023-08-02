@@ -52,7 +52,7 @@ function Heading() {
                     <section className='linkedin_icon_background'><AiFillLinkedin className='linkedin_icon' /></section>
                     <p>linkedin.com/in/yağızcan-şahin-a00a13200/</p>
                 </section>
-                <section className='content_item' style={{ cursor: "none" }}>
+                <section className='content_item' style={{ cursor: "not-allowed" }}>
                     <section className='icon_background'><BsFillTelephoneFill className='icon' /></section>
                     <p>+90 551 429 88 82</p>
                 </section>
